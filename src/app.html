@@ -24,9 +24,9 @@
         }
 
         blockquote {
-            border-left: 5px solid #bebebe;
-            padding: 5px 5px;
-            text-align: left;
+            border-left: .25em solid #dfe2e5;
+            color: #6a737d;
+            padding: 0 1em;
         }
 
     </style>
@@ -40,8 +40,7 @@
             <li class="nav-item">
                 <a class="nav-link tab_item_color active" href="#home" role="tab" data-toggle="tab">Home</a>
             </li>
-            <li class="nav-item "><a class="nav-link tab_item_color" href="#about" role="tab"
-                                     data-toggle="tab">About</a>
+            <li class="nav-item "><a class="nav-link tab_item_color" href="#about" role="tab" data-toggle="tab">About</a>
             </li>
         </ul>
 
@@ -146,13 +145,13 @@
                         </div>
 
 
-                        <textarea id="markdownEditor">
+                        <textarea id="markdownEditor" style="width: 100%; text-align: left;">
 
                         </textarea>
 
                         <div id="preview"></div>
 
-                        <button onclick="rendarMD()">Click me</button>
+                        <button onclick="rendarMD()"> Markdown To HTML </button>
 
                     </div>
                 </div>
@@ -173,7 +172,25 @@
 
         function rendarMD() {
 
-           let md = new Remarkable();
+
+            var md = new Remarkable({
+                // Modify the generated HTML by highlighting the code directly
+                html:true,
+                langPrefix: 'hljs language-',
+                highlight: function (str, lang) {
+                    if (lang && hljs.getLanguage(lang)) {
+                        try {
+                            return hljs.highlight(lang, str).value;
+                        } catch (err) {}
+                    }
+
+                    try {
+                        return hljs.highlightAuto(str).value;
+                    } catch (err) {}
+
+                    return ''; // use external default escaping
+                }
+            });
 
 
             let markdownEditor = document.getElementById('markdownEditor');
@@ -204,6 +221,8 @@
             //getData();
 
 
+            let markdownEditor = document.getElementById('markdownEditor');
+            markdownEditor.value = '';
 
 
             function getPagingRange(current, {min = 1, total = 20, length = 5} = {}) {
@@ -225,3 +244,14 @@
 
 
 </div>
+
+
+
+
+<!--
+
+https://ourcodeworld.com/articles/read/396/how-to-convert-markdown-to-html-in-javascript-using-remarkable
+
+
+
+-->
