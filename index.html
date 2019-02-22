@@ -5,43 +5,165 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
     <!--fontawesome & Material Icons-->
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-     <!--code highlight -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/googlecode.min.css">
-    <!--<link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/vs.min.css">-->
-
 
 
     <link rel="stylesheet" href="style.css"/>
     <style>
-        code {
-            display: block;
-            padding: 9.5px;
-            margin: 0 0 10px;
-            font-size: 13px;
-            line-height: 1.42857143;
-            color: #333;
-            word-break: break-all;
-            word-wrap: break-word;
-            background-color: #f5f5f5!important;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        tab_item_color {
+            color: red !important;
         }
+
+        .tab_item_color:hover {
+            color: red !important;
+        }
+
+        .img_avatar {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            padding: 5px;
+            border: 2px solid gray;
+
+        }
+
+        blockquote {
+            border-left: .25em solid #dfe2e5;
+            color: #6a737d;
+            padding: 0 1em;
+        }
+
     </style>
 
 </head>
 <body style="height:1500px">
 
 
-<div id="appMain"></div>
+
+<div class="app">
+
+    <div class="center" style="border: 2px solid #bebebe; background: #bebebe">
+        <ul class="nav nav-tabs custom_tabs nav-justified" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link tab_item_color" href="#projects" role="tab" data-toggle="tab" aria-selected="true">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link tab_item_color active" href="#home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li class="nav-item "><a class="nav-link tab_item_color" href="#about" role="tab"
+                                     data-toggle="tab">About</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade" id="projects">projects</div>
+
+        <div role="tabpanel" class="tab-pane active" id="home">
+
+            <div class="container" style="margin-top:30px">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img_avatar" src="assets/profile_pic.jpg" alt="MD. Sadhan Sarker">
+
+                        <h2>MD.Sadhan Sarker</h2>
+                        <h5>Software Engineer</h5>
+
+                        <p>Trying to find my way in the amazing unknown world with so much to unlock.</p>
+
+                        <hr>
+
+                        <div>
+                            <i class="material-icons" style="font-size:20px;">location_on</i>
+                            <label style="vertical-align:middle;cursor: pointer"> Dhaka, Bangladesh </label>
+                        </div>
+
+
+                        <a href="http://www.fb.com/cse.sadhan" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="material-icons" style="font-size:18px;">email</i>
+                            <label style="vertical-align:middle;"> cse.sadhan@gmail.com </label>
+                        </a><br>
+
+
+                        <a href="https://github.com/mesadhan" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="fab fa-github" style="margin-left: 2px;"></i>
+                            <label style="cursor: pointer">Github</label>
+                        </a><br>
+
+
+                        <a href="https://www.linkedin.com/in/csesadhan" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="fab fa-linkedin" style="margin-left: 2px;"></i>
+                            <label style="cursor: pointer">Linkedin</label>
+                        </a><br>
+
+                        <a href="http://www.inktechs.com" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="fab fa-internet-explorer"></i>
+                            <label style="cursor: pointer"> Website </label>
+                        </a><br>
+
+                        <a href="http://www.fb.com/cse.sadhan" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="fab fa-facebook"></i>
+                            <label style="cursor: pointer"> Facebook </label>
+                        </a><br>
+
+                        <a href="https://stackoverflow.com/users/4338762/sadhan-sarker" target="_blank"
+                           style="text-decoration: none; cursor: pointer">
+                            <i class="fab fa-stack-overflow" style="margin-left: 2px;"></i>
+                            <label style="cursor: pointer">Stack Overflow</label>
+                        </a><br>
+
+
+                        <hr>
+                        <iframe src="https://codealike.com/pulse/9168383392"
+                                target="_parent" width="100%" height="270" style="border:none;overflow:hidden"
+                                scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+                        <hr class="d-sm-none">
+                    </div>
+
+
+                    <!-- content -->
+                    <div class="col-sm-8">
+
+
+                        <iframe src='https://codealike.com/Profile/FactsWidget/weak-9168383392'
+                                frameborder='0' scrolling='no' marginheight='0' marginwidth='0' width='100%' height='370px'></iframe>
+
+
+                        <figure><embed src="https://wakatime.com/share/@mesadhan/8903d89b-8f94-4b5a-bbbb-ef22785dbc13.svg"></embed></figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="about">about</div>
+    </div>
+
+
+    <div class="footer" style="background: #bebebe">
+        <p style="margin-top: 10px">© <span id="updatedDate"></span> Sadhan Sarker</p>
+    </div>
+
+
+</div>
+
+
+
+
 
 
 
@@ -50,11 +172,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
-<!--code highlight -->
-<script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
-<script src="index.js"></script>
 
+<script>
+    $year = new Date().getFullYear();
+    document.getElementById('updatedDate').innerText = $year;
+</script>
 
 
 </body>
