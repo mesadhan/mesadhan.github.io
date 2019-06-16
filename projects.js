@@ -32,7 +32,7 @@ for (let project of projects) {
     projectSection.innerHTML += `
 
     <div style="border: 1px solid #bebebe; padding: 5px; margin-top: 5px;">
-        <h6><b> Project Title: </b> ${project.title} </h6>
+        <h3><b> Project Title: </b> ${project.title} </h3>
         <p><strong> Description: </strong> ${project.description}</p>
         <p><strong> Role: </strong> ${project.role}</p>
         <p><strong> Demo Link: </strong> ${linkHtml} </p>
