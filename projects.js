@@ -1,6 +1,6 @@
 let projects = [
     {
-        'title': 'KenarHat',
+        'title': 'KenarHat [E-Commerce]',
         'description': 'The online marketing market of Jessore\'s traditional date Gur-Patali market is \'khanharat\'. The goal of khanharhat is to manufacture and market pure wheat and gourd production under the intensive care of the trees. Kennaharhat is a social initiative. A portion of its income will be spent on children\'s education.',
         'role': 'Developer & Designer',
         'demoLinks': ['http://www.kenarhat.com'],
