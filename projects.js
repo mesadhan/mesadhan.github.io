@@ -1,5 +1,19 @@
 let projects = [
     {
+        'title': 'KenarHat',
+        'description': 'The online marketing market of Jessore\'s traditional date Gur-Patali market is \'khanharat\'. The goal of khanharhat is to manufacture and market pure wheat and gourd production under the intensive care of the trees. Kennaharhat is a social initiative. A portion of its income will be spent on children\'s education.',
+        'role': 'Developer & Designer',
+        'demoLinks': ['http://www.kenarhat.com'],
+        'tools': 'PHP, Laravel, Passport, Caching, Notification, MySQL, Composer, and Git, Html, CSS, Bootstrap 4, Bulk Api Integration, JavaScript, Angular.js, AJAX, REST and JSON.'
+    },
+    {
+        'title': 'School Management System with Mobile Application',
+        'description': 'This application fully customizable for School management. System Features are Student Admission able, Subject Assignable, Exam Creatable, Automatic ID card generate able, Teachers and Students Attendance Take able through manually or Bio-Metric fingerprint Device. Teacher can assign students Exam marks though this system. Mark sheet will be automatically generatable. System intergraded with bull SMS APIs so when student punch on biometric device it able to send SMS to their guardian. Admin users also generate students repots. This application continuously developing base on the institute requirements.',
+        'role': 'Developer & Designer',
+        'demoLinks': ['http://soft.inktechs.com'],
+        'tools': 'PHP, Laravel, Passport, OAuth2, Caching, Notification, MySQL,Composer, and Git, Html, CSS, Bootstrap 3, JavaScript, Angular.js, AJAX, REST and JSON, Bulk Api Integration, Bio-metric Device Inflation'
+    },
+    {
         'title': 'Online Admission System for Daffodil International University',
         'description': 'Applicants are using this system to apply in Daffodil International University on Any subjects and pay their admission fee. Admin offices are used for reporting, verification and SMS purposes.',
         'role': 'Associate Frontend & Backend Developer',
@@ -12,13 +26,6 @@ let projects = [
         'role': 'Associate Frontend & Backend Developer',
         'demoLinks': ['http://gradesheetapprove.daffodilvarsity.edu.bd'],
         'tools': 'Angular5, Angular Material, Git, Flex-Layout, Java, Spring Boot, REST APIs etc.'
-    },
-    {
-        'title': 'School Management System with Mobile Application',
-        'description': 'This application fully customizable for School management. System Features are Student Admission able, Subject Assignable, Exam Creatable, Automatic ID card generate able, Teachers and Students Attendance Take able through manually or Bio-Metric fingerprint Device. Teacher can assign students Exam marks though this system. Mark sheet will be automatically generatable. System intergraded with bull SMS APIs so when student punch on biometric device it able to send SMS to their guardian. Admin users also generate students repots. This application continuously developing base on the institute requirements.',
-        'role': 'Developer & Designer',
-        'demoLinks': ['http://soft.inktechs.com'],
-        'tools': 'Laravel, Passport, OAuth2, Caching, Notification, MySQL, Composer, and Git, Html, CSS, Bootstrap 3, JavaScript, Angular.js, AJAX, REST and JSON.'
     },
     {
         'title': 'Who Is Caller',
