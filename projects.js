@@ -48,6 +48,13 @@ let projects = [
         'demoLinks': ['https://play.google.com/store/apps/details?id=news.pixonlab.com'],
         'tools': 'PHP, Lumen, MySQL, Web Scraping, Git, RESTful API, Android, Java, SQLite Database, JSON, Volley, AdMob Integrations, Services, GSON, Picasso, Material Design, XML.'
     },
+    {
+        'title': 'Cricket Zone - Live Score, Ranking & Sports News',
+        'description': 'Cricket Zone is the fastest app to give you Live Cricket Score, Get Live cricket scores from around the world just in a single tap, updated in real-time, ball-by-ball coverage. Ongoing series, past matches, live matches, Cricketer ranking, news and fixture details in one place, Enjoy with real-time updates, rich content,fast and much more',
+        'role': 'Developer & Designer',
+        'demoLinks': ['https://play.google.com/store/apps/details?id=pixonlab.com.cricketzone'],
+        'tools': 'Web Scraping, Git, RESTful API, Android, Java, SQLite Database, JSON, Volley, Services, GSON, Picasso, Material Design, JSON, XML, CrickBuzz API'
+    },
 
 ];
 
