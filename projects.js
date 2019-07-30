@@ -1,5 +1,12 @@
 let projects = [
     {
+        'title': 'পকেটে বাংলাদেশ - Bangladesh In Pocket',
+        'description': 'Its basically contains Bangladesh 68 districts Infomation. Its helps those people who are love to travel, they can get information about popular spots. Base On Web Scrapping Process Data then Store it as resource files after that Parse and process View will be Populated. This app can work offline and user-friendly. If someone new at any place they can get information about that place and history',
+        'role': 'Developer & Designer',
+        'demoLinks': ['https://play.google.com/store/apps/details?id=com.inktechs.bangladesh_in_pocket'],
+        'tools': 'PHP, Laravel, Web Scraping, Git, RESTful API, Android, Java, SQLite Database, JSON, Volley, Services, GSON, Picasso, Material Design,JSON, XML.'
+    },
+    {
         'title': 'KenarHat [E-Commerce]',
         'description': 'The online marketing market of Jessore\'s traditional date Gur-Patali market is \'khanharat\'. The goal of khanharhat is to manufacture and market pure wheat and gourd production under the intensive care of the trees. Kennaharhat is a social initiative. A portion of its income will be spent on children\'s education.',
         'role': 'Developer & Designer',
