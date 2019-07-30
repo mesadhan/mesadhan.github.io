@@ -55,6 +55,13 @@ let projects = [
         'demoLinks': ['https://play.google.com/store/apps/details?id=pixonlab.com.cricketzone'],
         'tools': 'Web Scraping, Git, RESTful API, Android, Java, SQLite Database, JSON, Volley, Services, GSON, Picasso, Material Design, JSON, XML, CrickBuzz API'
     },
+    {
+        'title': 'QR Barcode Reader',
+        'description': 'QR Barcode Reader is the fastest QR code reader / barcode scanner app out there. QR Code Reader is an essential app for every Android device. QR codes and barcodes are everywhere; you can now scan and read them with the use of QR Code Reader.',
+        'role': 'Developer & Designer',
+        'demoLinks': ['https://play.google.com/store/apps/details?id=pixonlab.com.qrreader'],
+        'tools': 'Android, Java, JSON, Services JSON, XML, AddMob Intregration, ZXing library'
+    }
 
 ];
 
