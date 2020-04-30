@@ -123,9 +123,9 @@ for (let project of projects) {
         <h3><b> Project Title: </b> ${project.title} </h3>
         <p><strong> Description: </strong> ${project.description}</p>
         <p><strong> Role: </strong> ${project.role}</p>
+        <p><strong> Service: </strong> ${project.status} | <strong> Resource: </strong> ${project.type}</p>
         <p><strong> Demo Link: </strong> ${linkHtml} </p>
         <p><strong> Tools: </strong> ${project.tools}</p>
-        <p><strong> Service: </strong> ${project.status} | <strong> Resource: </strong> ${project.type}</p>
     </div>
     
 `;
