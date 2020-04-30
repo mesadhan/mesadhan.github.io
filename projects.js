@@ -1,5 +1,23 @@
 let projects = [
     {
+        'title': 'Offer Management Kit',
+        'description': 'It\'s a marketing tool. It\'s an end to end solution for dynamic offer management. Through privilege & policies, it able to create offer campaigns. The system easily track traffics and their interactions base on analities. The main goal is to facilitate paid offers, to the groups of traffic. It\'s has a smart control panel so offer owner able to enable and disable the client access, also limit offer access.',
+        'role': 'Developer & Designer',
+        'type': 'private',
+        'message': 'Paid Product',
+        'demoLinks': [],
+        'tools': 'Javascript, NodeJS, PostgreSQL, Git, RESTful API, JSON, Linux, Bash, Shell, Nginx, Firewall, HTML, CSS'
+    },
+    {
+        'title': 'Email Marketing Kit',
+        'description': 'It\'s basically an email marketing tool, which is basically able to automate response and replies. This tool is specially made for local clients so that different types of campaigns provider can promote their products, show their analytics and more. The main goal is to make life easier through automation so that tool can of customer basic request.',
+        'role': 'Developer & Designer',
+        'type': 'private',
+        'message': 'Paid Product',
+        'demoLinks': [],
+        'tools': 'Javascript, NodeJS, PostgreSQL, Git, RESTful API, JSON, Linux, Bash, Shell, Nginx, SMTP, IMAP, HTML, CSS'
+    },
+    {
         'title': 'পকেটে বাংলাদেশ - Bangladesh In Pocket',
         'description': 'Its basically contains Bangladesh 68 districts Infomation. Its helps those people who are love to travel, they can get information about popular spots. Base On Web Scrapping Process Data then Store it as resource files after that Parse and process View will be Populated. This app can work offline and user-friendly. If someone new at any place they can get information about that place and history',
         'role': 'Developer & Designer',
