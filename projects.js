@@ -5,7 +5,7 @@ let projects = [
         'role': 'Developer & Designer',
         'type': 'private',
         'status': 'Paid',
-        'demoLinks': [],
+        'demoLinks': ['https://techtoolspro.com/products/offer_management'],
         'tools': 'Javascript, NodeJS, PostgreSQL, Git, RESTful API, JSON, Linux, Bash, Shell, Nginx, Firewall, HTML, CSS'
     },
     {
@@ -14,7 +14,7 @@ let projects = [
         'role': 'Developer & Designer',
         'type': 'private',
         'status': 'Paid',
-        'demoLinks': [],
+        'demoLinks': ['https://techtoolspro.com/products/email_marketing'],
         'tools': 'Javascript, NodeJS, PostgreSQL, Git, RESTful API, JSON, Linux, Bash, Shell, Nginx, SMTP, IMAP, HTML, CSS'
     },
     {
